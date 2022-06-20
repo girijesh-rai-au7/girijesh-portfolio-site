@@ -1,0 +1,58 @@
+.Home{
+	background: purple;
+	display:flex;
+	padding-top:80px;
+	height:639px;
+	position:relative;
+
+
+}
+.Home .Code{
+	position: absolute;
+	bottom: 50%;
+	left:15%;
+	width: 30px;
+	height:30px;
+	border-radius: 50%;
+	border:2px solid rgb(234, 38, 38);
+	animation-name: logo-rotor;
+	
+
+
+}
+.Code:hover {
+	animation: logo-rotor 8s infinite linear;
+	border-color:rgb(209, 37, 37)
+  }
+
+
+	@keyframes logo-rotor {
+		from {
+		  transform: rotate(0deg);
+		}
+		to {
+		  transform: rotate(359deg);
+		}
+	  }
+	
+
+.Code1{
+	position: absolute;
+	padding-top: 10px;
+	right:0%;
+}
+.Hello{
+	color: white;
+	position:absolute;
+	left:0%;
+	top:10px;
+}
+h1, h2{
+	color: white;
+}
+.Hello1{
+	position:absolute;
+	left:0%;
+	top:50px;
+
+}

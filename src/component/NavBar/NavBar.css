@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+.NavBar navbar ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+	
+
+	
+}
+a{
+	color: white;
+	text-decoration: none;
+
+}
+li{
+	display: inline-block;
+	margin: 20px;
+}
+.NavBar{
+	background-color: #181818;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	position:fixed;
+	width: 100%;
+	z-index: 999;
+	opacity: .9;
+}
+a:hover{
+	border-bottom:5px solid purple;
+
+}
+h1{
+	font-weight:900;
+	font-size: 45px;
+}
+p{
+	font-weight: 500;
+	font-size: 25px;
+}
+a{
+	font-weight: 900;
+	font-size: 16px;
+}
