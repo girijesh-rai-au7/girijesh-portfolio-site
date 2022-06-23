@@ -11,8 +11,10 @@ const About = () => {
 	 <div className = "Container">
 
 <div className = "Text">
-<h2>Hello,I'm a software developer based in India.</h2>
-<p>My area of interest is MERN development</p>
+<h2>Hello,My name is Girijesh Rai.I am a software developer based in India.</h2>
+<h3>My area of interest is MERN Development.</h3>
+<h3>Currently working in Honeywell Automation India Ltd as Service Engineer</h3>
+
 </div>
 <div className = "myphoto">
 

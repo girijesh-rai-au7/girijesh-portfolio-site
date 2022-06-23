@@ -5,9 +5,9 @@ const NavBar = () => {
 	<navbar>
 		<ul>
 			<li><a href='/'>Home</a></li>
-			<li><a href = '/#About'>About Me</a></li>
-			<li><a href='/#Skills'>Skills</a></li>
-			<li><a href='/#Contact'>Contact</a></li>
+			<li><a href = '/about'>About Me</a></li>
+			<li><a href='/skills'>Skills</a></li>
+			<li><a href='/contact'>Contact</a></li>
 		</ul>
        </navbar>
 		</div> 

@@ -7,7 +7,7 @@ const Home = () => {
 	return (
 	<div className="Home"> 
 	<div className="Container">
-    <h1 className="Hello">Hello,World!</h1> 
+    <h2 className="Hello">Hello,World!</h2> 
 	<h2 className = "Hello1">Welcome to my React Website</h2>
 	</div>
 		<img className='Code' src={myimage1} alt ="background " />
